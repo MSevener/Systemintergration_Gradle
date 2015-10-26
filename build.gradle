@@ -1,0 +1,7 @@
+apply plugin: 'groovy'
+
+group = 'groovyProject1'
+
+dependencies {
+   groovy localGroovy()
+}
